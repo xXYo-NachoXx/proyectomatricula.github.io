@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Matrícula comunitaria</title>
+    <link rel="icon" href="img/icono.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/gijgo.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+   <!-- style CSS -- del proyecto Carlos y Gabriel -->
+    <link rel="stylesheet" href="css/styleproyecto.css">
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- banner part start-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+                            <h5>TEC </h5>
+                            <h1>Sistema de matrícula</h1>
+                            <p>Herramienta para comunidades asociadas, que brinda la facilidad de información y matrícula de personas, para los cursos impartidos en la comunidad correspondiente </p>
+                            <div class="banner_btn">
+                            	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Iniciar sesión</button>
+
+							    <div id="id01" class="modal">
+							      
+							      <form class="modal-content animate" action="/action_page.php">
+							        <div class="imgcontainer">
+							          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+							        </div>
+
+							        <div class="container">
+							          <label for="uname"><b>Usuario</b></label>
+							          <input type="text" placeholder="Ingrese correo asociado " name="uname" required>
+
+							          <label for="psw"><b>Contraseña</b></label>
+							          <input type="password" placeholder="Ingrese contraseña" name="psw" required>
+							            
+							          <button type="submit">Ingresar</button>
+							        </div>
+
+							        <div class="container" style="background-color:#f1f1f1">
+                                        <center>
+							                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                        </center>
+							        </div>
+							      </form>
+							    </div>
+                                <a href="cursos.html" class="btn_2">Ver cursos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner part start-->
+
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="single-footer-widget footer_1">
+                        <h4>Acerca de nosotros</h4>
+                        <p> Estudiantes del Tecnológico de Costa Rica  </p>
+                        <p class="mt-3" >Actualmente cursando el curso de Computación y sociedad, donde se busca a través de este proyecto brindar una herramienta a la sociedad, que facilite algunas tareas comunitarias</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Contacto</h4>
+                        <div class="contact_info">
+                            <span class="ti-home"></span>
+                            <h5>Santa Bárbara, Heredia</h5>
+                            <p>Gabriel Solórzano Chanto</p>
+                        </div>
+                        <div class="contact_info">
+                            <span class="ti-headphone-alt"></span>
+                            <h5>+506 8706 2905</h5>
+                        </div>
+                        <h4>Contacto</h4>
+                        <div class="contact_info">
+                            <span class="ti-home"></span>
+                            <h5>Santo Domingo, Heredia</h5>
+                            <p>Carlos Gómez Segura</p>
+                        </div>
+                        <div class="contact_info">
+                            <span class="ti-headphone-alt"></span>
+                            <h5>+506 8661 5654</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-4 col-sm-8 col-lg-4">
+                    <div class="single-footer-widget footer_3">    
+                         <img src="img/logotec.png" alt="Avatar" class="image">   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+
+
+    <!--  scripts -->
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
+    <!--  scripts -->
+
+
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

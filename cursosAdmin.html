@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Matrícula comunitaria</title>
+    <link rel="icon" href="img/icono.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/gijgo.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- style CSS -- del proyecto Carlos y Gabriel -->
+    <link rel="stylesheet" href="css/styleproyecto.css">
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu single_page_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                         <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu_icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                  <a href="colaborador.html" class="btn_2">Volver</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+
+
+    <!-- breadcrumb start-->
+    <section class="breadcrumb breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner text-center">
+                        <div class="breadcrumb_iner_item">
+                            <h2>Administración de cursos</h2>
+                            <p>Inicio <span class="ti-angle-double-right"></span> Sección de Colaborador  <span class="ti-angle-double-right"></span> Administrar cursos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb start-->
+
+    <!-- Service part start-->
+    <section class="service_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-lg-6 col-sm-10">
+                    <div class="section_tittle">
+                         <img src="img/icono.png" alt="icon">
+                            <h2>Encargado comunitario</h2>
+                            <center>
+                                 <a href="cursosVisualizar.html" class="btn_3">Visualizar cursos </a>
+                            </center>
+
+
+                             <div class="row">
+                                        <div class="column">
+
+                                            <center>
+                                                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Borrar Curso</button>
+                                                <div id="id01" class="modal">           
+                                                  <form class="modal-content animate" action="/action_page.php">
+                                                    <div class="imgcontainer">
+                                                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                                    </div>
+
+                                                    <div class="container">
+                                                        <section class="regervation_part section_padding">
+                                                                <div class="row justify-content-end">
+                                                                    <div class="col-lg-7">
+                                                                        <div class="regervation_part_iner">
+                                                                            <form>
+                                                                                <div class="form-row">
+                                                                                    <!-- Aquí es donde se cargan las comunidades  -->   
+                                                                                    <div class="form-group col-md-6">
+                                                                                        <select class="form-control" id="Select">
+                                                                                            <option value="1" selected>Curso</option>
+                                                                                            <option value="2">Curso1</option>
+                                                                                            <option value="3">Curso2</option>
+                                                                                            <option value="4">Curso3</option>
+                                                                                            <option value="5">Curso4</option>
+                                                                                        </select>
+                                                                                    </div>                                                       
+                                                                                </div>
+                                                                                <div class="regerv_btn">
+                                                                                    <center> 
+                                                                                         <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Borrar</button>
+                                                                                    </center>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+                                                                </div> 
+                                                            </section> 
+                                                    </div>
+
+                                                    <div class="container" style="background-color:#f1f1f1">
+                                                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                            </center>
+                                        </div>
+                                        <div class="column">
+                                            <center>
+                                                                                            <center>
+                                                <div class="banner_btn">
+                                                        <button onclick="document.getElementById('id06').style.display='block'" style="width:auto;">Crear Curso</button>
+
+                                                        <div id="id06" class="modal">
+                                                          
+                                                          <form class="modal-content animate" action="/action_page.php">
+                                                            <div class="imgcontainer">
+                                                              <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                                            </div>
+
+
+                                                            <div class="container">
+                                                                <div class="form-row">
+                                                                    <div class="form-group col-md-6">
+                                                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Descripción">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Profesor">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Cupos disponibles">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <input type="password" class="form-control" id="inputPassword4" placeholder="Horario">
+                                                                    </div>
+                                                                    <!-- Aquí es donde se cargan las comunidades  -->   
+                                                                    <div class="form-group col-md-6">
+                                                                        <select class="form-control" id="Select">
+                                                                            <option value="1" selected>Comunidad</option>
+                                                                            <option value="2">Comunidad1</option>
+                                                                            <option value="3">Comunidad2</option>
+                                                                            <option value="4">Comunidad</option>
+                                                                            <option value="5">Comunidad</option>
+                                                                        </select>
+                                                                    </div>                
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="container" style="background-color:#f1f1f1">
+                                                                <center>
+                                                                     <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Crear curso</button>
+                                                                </center>
+                                                            </div>
+                                                          </form>
+                                                        </div>   
+
+                                                </div>
+
+                                            </center>
+                                            </center>
+                                        </div>
+                                    </div>
+                           
+                    </div>             
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Service part end-->
+    <section class="review_part gray_bg section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="client_review_part owl-carousel">
+                        <div class="client_review_single">
+                            <img src="img/imgresize.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>Funcionalidad que consiste en la habilidad de registrar un curso nuevo</p>
+                            </div>
+                            <div class="client_img">
+                                <img src="img/client/client_1.png" alt="">
+                            </div>
+                            <h4>Crear curso </h4>
+                        </div>
+                        <div class="client_review_single">
+                            <img src="img/imgresize.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>Funcionalidad que consiste en la habilidad de ver información de los cursos  </p>
+                            </div>
+                            <div class="client_img">
+                                <img src="img/client/client_1.png" alt="">
+                            </div>
+                            <h4>Vizualizar cursos </h4>
+                        </div>
+                        <div class="client_review_single">
+                            <img src="img/imgresize.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>Consiste en la eliminación de los cursos</p>
+                            </div>
+                            <div class="client_img">
+                                <img src="img/client/client_1.png" alt="">
+                            </div>
+                            <h4>Borrar Curso</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
+        <script>
+    // Get the modal
+    var modal = document.getElementById('id02');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
+
+
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
